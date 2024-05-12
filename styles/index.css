@@ -69,7 +69,7 @@ a{
 }
 
 .site-navigation a {
-    color: black;
+    color: #000000;
     padding: 0.5rem;
 }
 .types{
@@ -84,6 +84,10 @@ img{
     width:100%;
 }
 
+article img{
+    color: darkblue;
+    box-shadow: 0px 2px 3px 2px;
+}
 
 
 /* media ajustments */
@@ -96,6 +100,7 @@ img{
     top: 0;
     margin-bottom: 3rem;
     z-index: 50;
+    margin: 0 auto;
      
     /* text-align: center;
     background-color: rgb(25, 133, 228);
@@ -121,12 +126,33 @@ h2{
     padding:3rem;
 
 }
+.projects-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 .site-navigation{
     margin: 5rem;
 }
  .div-2{
+    color: aliceblue;
     font-size: 2rem;
+ }
+ .types{
+    font-size: 3rem;
+    display:block;
+    justify-content: space-evenly;
+ }
+
+
+ article{
+    color: aliceblue;
+    background-color: #02559d;
+    margin: 2rem;
+    padding: 2rem;
+    width: 300px;
+    border-radius: 0.5rem;
  }
 
 }
